@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS, sans-serif;
+	background-repeat: no-repeat;
+}
+.background_image {
+	background-image: url("../background/bg11.jpg");
+	background-size: 100%;
+}
+header {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	transition: 0.3s;
+}
+.a {
+	outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.a_color {
+	color: #fff;
+}
+.header {
+	padding: 27px 0px;
+	margin: 0px 96px;
+	border-bottom: 1px solid #fff;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	transition: 0.3s;
+	align-items: center;
+}
+.header_navigation {
+	width: 240px;
+	height: 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.header_account {
+	width: 150px;
+	height: 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.scroll_header {
+	position: sticky;
+	top: 0.1px;
+}
+
+
+/*---------------scrolling-----------------*/
+.scroll_header_run {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	background: #fff;
+	transition: 0.2s;
+}
+.scroll_header_a {
+	outline: none;
+    text-decoration: none;
+	color: #222;
+	cursor: pointer;
+}
+.scroll_header_header {
+	padding: 27px 0px;
+	margin: 0px 96px;
+	border-bottom: 1px solid #e5e5e5;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	transition: 0.2s;
+}
+/*---------------scrolling-----------------*/
+
+
+.main_header {
+
+}
+.catalog_header {
+
+}
+.aboutus_header {
+	
+}
+.auth_header {
+
+}
+.reg_header {
+
+}
+.itsme:hover {
+	color: #2ad59f;
+}
+.seeyouspacecowboy {
+	
+}
+content {
+	display: flex;
+	background: #fff;
+	flex-direction: column;
+	margin-top: 600px;
+}
+.sponsor {
+	padding-top: 60px;
+}
+.microsoft_heading {
+	margin: 0px 337.5px;
+}
+.text {
+	color: #595959; 
+	text-align: justify; 
+	font-variant: small-caps;
+}
+.heading {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.microsoft_text {
+	margin: 20px 0px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.microsoft {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.microsoft_heading_continued {
+	text-decoration: underline;
+}
+.microsoft_windows_text {
+    font-size: 20px;
+}
+.office_image {
+	padding-top: 30px; 
+	width: 394px; 
+	height: 213px; 
+	margin: auto;
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+/*---------scroling---------*/
+.office_image._animImage {
+	opacity: 1;
+}
+.windows_image._animImage {
+	opacity: 1;
+}
+.autodesk_image_block._animImage {
+	opacity: 1;
+}
+.adobe_image_block._animImage {
+	opacity: 1;
+}
+/*---------scroling---------*/
+.chieftain_windows_image {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.windows_image {
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.windows_text {
+	width: 343px; 
+}
+.adobe_heading {
+	margin: 0px 165px;
+}
+.adobe_line_heading {
+	border-bottom: 1px solid #2ad59f; 
+	width: 30px; 
+	padding-top: 25px;
+	margin: 0px 165px;
+}
+.adobe_image_block {
+	width: 653px;
+	height: 266px;
+	margin: 0px 165px;
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.adobe_text {
+	margin: 0px 165px;
+	width: 597px;
+}
+.autodesk_heading {
+	width: 200px;
+	/*margin: 0px 165px;*/
+	margin: 0px 1034px;
+}
+.autodesk_line_heading {
+	border-bottom: 1px solid #2ad59f; 
+	width: 30px; 
+	padding-top: 25px;
+	/*margin: 0px 165px;*/
+	margin: 0px 1151px;
+}
+.autodesk_image_block {
+	width: 653px;
+	height: 164px;
+	margin: 0px 537px;
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.autodesk_text {
+	/*margin: 0px 165px;*/
+	margin: 0px 551px;
+	width: 626px;
+}
+.whylicns_flex {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.table_info {
+	width: 361.75px;
+	height: 221.5px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+}
+.table_info_position {
+	padding-top: 25px;
+}
+.text_info {
+	color: #595959; 
+	text-align: center; 
+	font-variant: small-caps;
+}
+.upfooter {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 96px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.a_upfooter {
+	color: #595959;
+}
+.upfooter_icons {
+	width: 72px; 
+	height: 16px;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.donwfooter {
+	padding: 5px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	min-height: 1px;
+	margin: 0 7.14%;
+	flex-wrap: wrap;
+}
+.footer_text {
+	color: #888; 
+	font-size: 12px;
+}
+.donwfooter_size {
+	width: 375.5px; 
+	height: 16px;
+}
+.dfl {
+	text-align: left;
+}
+.dfr {
+	text-align: right;
+}
