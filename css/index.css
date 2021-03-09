@@ -30,7 +30,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	transition: 0.3s;
-	align-items: center;
 }
 .header_navigation {
 	width: 240px;
@@ -76,23 +75,6 @@ header {
 	transition: 0.2s;
 }
 /*---------------scrolling-----------------*/
-
-
-.main_header {
-
-}
-.catalog_header {
-
-}
-.aboutus_header {
-	
-}
-.auth_header {
-
-}
-.reg_header {
-
-}
 .itsme:hover {
 	color: #2ad59f;
 }
@@ -108,9 +90,6 @@ content {
 .sponsor {
 	padding-top: 60px;
 }
-.microsoft_heading {
-	margin: 0px 337.5px;
-}
 .text {
 	color: #595959; 
 	text-align: justify; 
@@ -120,6 +99,11 @@ content {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
+}
+.microsoft_heading {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
 }
 .microsoft_text {
 	margin: 20px 0px;
@@ -173,48 +157,54 @@ content {
 .windows_text {
 	width: 343px; 
 }
+.abode_desk_center {
+	display: flex;
+	justify-content: center;
+}
+.abode_desk {
+	flex-direction: column;
+	height: 980px;
+	display: flex;
+}
+.adobe {
+
+}
+.autodesc {
+
+}
 .adobe_heading {
-	margin: 0px 165px;
+
 }
 .adobe_line_heading {
 	border-bottom: 1px solid #2ad59f; 
 	width: 30px; 
-	padding-top: 25px;
-	margin: 0px 165px;
+	padding-top: 8px;
 }
 .adobe_image_block {
 	width: 653px;
 	height: 266px;
-	margin: 0px 165px;
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .adobe_text {
-	margin: 0px 165px;
 	width: 597px;
 }
 .autodesk_heading {
 	width: 200px;
-	/*margin: 0px 165px;*/
-	margin: 0px 1034px;
 }
 .autodesk_line_heading {
 	border-bottom: 1px solid #2ad59f; 
 	width: 30px; 
-	padding-top: 25px;
-	/*margin: 0px 165px;*/
-	margin: 0px 1151px;
+	padding-top: 8px;
 }
 .autodesk_image_block {
+	padding-top: 35px;
 	width: 653px;
 	height: 164px;
-	margin: 0px 537px;
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .autodesk_text {
-	/*margin: 0px 165px;*/
-	margin: 0px 551px;
 	width: 626px;
 }
 .whylicns_flex {
